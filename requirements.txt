@@ -1,0 +1,6 @@
+- La radio promueve concursos con cierta frecuencia para mantener a sus oyentes interesados
+- Los concursos son de todo tipo, chistes, dibujos, etc, con bases y condiciones.
+- Los participantes se inscriben enviando un email, con nombre, apellido, dni, telefono e email de contacto. 
+- Y los primeros 3 inscriptos en cada concurso suman 100 puntos. Con premios a canjear cada 1000 puntos.
+- Un operador de la radio es el encargado de recibir los email y cargar los participantes en el concurso.
+
