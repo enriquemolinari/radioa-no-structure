@@ -97,13 +97,13 @@ public class RadioCompetition {
 					@Override
 					protected void done() {
 						try {
+							btnOk.setEnabled(true);
 							get();
 							JOptionPane.showMessageDialog(contentPane, "Inscription done successfully !");
 						} catch (InterruptedException | ExecutionException e) {
 							JOptionPane.showMessageDialog(contentPane, "Something went wrong...");
 							throw new RuntimeException(e);
 						}
-						btnOk.setEnabled(true);
 					}
 
 					@Override
