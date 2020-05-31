@@ -190,15 +190,14 @@ public class RadioCompetition {
 		try {
 			c.setAutoCommit(false);
 			PreparedStatement st = c
-					.prepareStatement("insert into competitor(first_name, last_name, person_id, email, phone, points) "
-							+ "values(?,?,?,?,?,?)", Statement.RETURN_GENERATED_KEYS);
+					.prepareStatement("insert into competitor(first_name, last_name, person_id, email, phone) "
+							+ "values(?,?,?,?,?)", Statement.RETURN_GENERATED_KEYS);
 
 			st.setString(1, txtName.getText());
 			st.setString(2, txtLastName.getText());
 			st.setString(3, txtId.getText());
 			st.setString(4, txtEmail.getText());
 			st.setString(5, txtPhone.getText());
-			st.setInt(6, 0);
 			st.executeUpdate();
 
 			ResultSet generatedKeys = st.getGeneratedKeys();
