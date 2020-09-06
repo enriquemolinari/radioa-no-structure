@@ -1,4 +1,4 @@
-package ar.cpfw.book.radio;
+package radio;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

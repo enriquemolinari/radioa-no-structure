@@ -1,4 +1,4 @@
-package ar.cpfw.book.radio;
+package radio;
 
 public class Item {
 
